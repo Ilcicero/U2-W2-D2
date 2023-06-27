@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-dark bg-dark navbar-expand-lg border-bottom border-bottom-dark"
+      data-bs-theme="dark bg-body-tertiary"
+    >
+      <a class="navbar-brand link-light" href="#">
+        <img
+          class="mx-2 p-1"
+          src="./assets/img/logo.png"
+          alt="Bootstrap"
+          width="85"
+          height="50"
+        />
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link link-light" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-light" href="#">Saldi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-light" href="#">Welcome Summer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-light" href="#">Last Minute</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-light" href="#">Recensioni</a>
+          </li>
+
+          <li class="nav-item"></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- CAPTION CENTRALE -->
+    <div class="container bg-secondary text-center">
+      <div class="row d-flex flex-column mb-3">
+        <div class="col">
+          <h1 class="p-3">T-Travel</h1>
+          <p class="p-2">Viaggi Epici In un Mondo Fantastico</p>
+        </div>
+
+        <div class="col">
+          <button type="button" class="btn btn-primary mb-3">
+            Prenota ORA!
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- SEZIONE SALDI -->
+
+    <div class="container sm md d-flex flex-column">
+      <h3>Saldi</h3>
+      <!-- RIGA UNO -->
+      <div class="row">
+        <!-- SCHEDA UNO -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card border-primary" style="width: 16rem">
+            <img
+              src="https://place-puppy.com/300x300"
+              class="card-img-top"
+              alt="FOTO"
+            />
+
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <!-- SCHEDA 2 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card border-primary" style="width: 16rem">
+            <img
+              src="https://place-puppy.com/300x300"
+              class="card-img-top"
+              alt="FOTO"
+            />
+
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <!-- SCHEDA TRE -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card border-primary" style="width: 16rem">
+            <img
+              src="https://place-puppy.com/300x300"
+              class="card-img-top"
+              alt="FOTO"
+            />
+
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-outline-info">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <!-- SCHEDA 4 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card border-primary" style="width: 16rem">
+            <img
+              src="https://place-puppy.com/300x300"
+              class="card-img-top"
+              alt="FOTO"
+            />
+
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- WELCOME SUMMER -->
+    <div class="container sm md d-flex flex-column">
+      <h3 class="mt-2">Welcome Summer</h3>
+      <!-- RIGA UNO -->
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+        <!-- SCHEDA UNO -->
+        <div class="col mb-2">
+          <div class="card text-bg-info mb-3" style="width: 16rem">
+            <img
+              src="https://place-puppy.com/300x300"
+              class="card-img-top"
+              alt="FOTO"
+            />
+            <div class="position-absolute top-0 end-0">
+              <span class="badge text-bg-danger me-2 mt-2">HOT</span>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <!-- SCHEDA 2 -->
+        <div class="col mb-2">
+          <div class="card" style="width: 16rem">
+            <img
+              src="https://place-puppy.com/300x300"
+              class="card-img-top"
+              alt="FOTO"
+            />
+            <div class="position-absolute top-0 end-0">
+              <span class="badge text-bg-danger me-2 mt-2">HOT</span>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <!-- SCHEDA TRE -->
+        <div class="col mb-2">
+          <div class="card" style="width: 16rem">
+            <img
+              src="https://place-puppy.com/300x300"
+              class="card-img-top"
+              alt="FOTO"
+            />
+            <div class="position-absolute top-0 end-0">
+              <span class="badge text-bg-danger me-2 mt-2">HOT</span>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <!-- SCHEDA 4 -->
+        <div class="col mb-2">
+          <div class="card" style="width: 16rem">
+            <img
+              src="https://place-puppy.com/300x300"
+              class="card-img-top"
+              alt="FOTO"
+            />
+            <div class="position-absolute top-0 end-0">
+              <span class="badge text-bg-danger me-2 mt-2">HOT</span>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <!-- SCHEDA 5 -->
+        <!-- SCHEDA 4 -->
+        <div class="col mb-2">
+          <div class="card" style="width: 16rem">
+            <img
+              src="https://place-puppy.com/300x300"
+              class="card-img-top"
+              alt="FOTO"
+            />
+            <div class="position-absolute top-0 end-0">
+              <span class="badge text-bg-danger me-2 mt-2">HOT</span>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <!-- SCHEDA 6 -->
+        <!-- SCHEDA 4 -->
+        <div class="col mb-2">
+          <div class="card" style="width: 16rem">
+            <img
+              src="https://place-puppy.com/300x300"
+              class="card-img-top"
+              alt="FOTO"
+            />
+            <div class="position-absolute top-0 end-0">
+              <span class="badge text-bg-danger me-2 mt-2">HOT</span>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- OFFERTA DEL GIORNO -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card mb-3">
+            <img
+              src="https://place-puppy.com/300x300"
+              alt="Offerta del giorno"
+              class="card-img-top rounded-start shadow"
+            />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h2 class="card-title fw-bold mb-3">Destinazione dell'offerta</h2>
+              <p class="card-text lead mb-2">$999</p>
+              <p class="card-text mb-2">
+                <small class="text-muted">Date:</small> <br />
+                <span class="fw-bold" style="font-family: monospace"
+                  >01/08/2023 - 08/08/2023</span
+                >
+              </p>
+              <span class="badge bg-dark mb-3">Best Offer</span>
+              <a href="#" class="btn btn-primary">Prenota ora</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Sezione Last Minute -->
+    <section class="last-minute">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 rounded shadow">
+              <img
+                src="https://place-puppy.com/300x300"
+                class="card-img-top"
+                alt="Destinazione 1"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 rounded shadow">
+              <img
+                src="https://place-puppy.com/300x300"
+                class="card-img-top"
+                alt="Destinazione 2"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 rounded shadow">
+              <img
+                src="https://place-puppy.com/300x300"
+                class="card-img-top"
+                alt="Destinazione 3"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 rounded shadow">
+              <img
+                src="https://place-puppy.com/300x300"
+                class="card-img-top"
+                alt="Destinazione 4"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 rounded shadow">
+              <img
+                src="https://place-puppy.com/300x300"
+                class="card-img-top"
+                alt="Destinazione 5"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 rounded shadow">
+              <img
+                src="https://place-puppy.com/300x300"
+                class="card-img-top"
+                alt="Destinazione 6"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sezione Recensioni -->
+    <section class="recensioni">
+      <div class="container mt-2">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="d-flex align-items-center mb-3 mt-3">
+              <img
+                src="https://place-puppy.com/300x300"
+                alt="Utente 1"
+                class="rounded-circle border border-primary"
+                width="64"
+                height="64"
+              />
+              <div class="ms-3">
+                <h5 class="mb-0">Nome Utente 1</h5>
+                <p class="text-muted mb-0">Cliente soddisfatto</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
+              velit sed turpis congue consequat. Nullam euismod elementum diam
+              ut tristique. Maecenas ac odio velit. Praesent venenatis augue a
+              erat ultricies hendrerit.
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <div class="d-flex align-items-center mb-3">
+              <img
+                src="https://place-puppy.com/300x300"
+                alt="Utente 2"
+                class="rounded-circle border border-primary"
+                width="64"
+                height="64"
+              />
+              <div class="ms-3">
+                <h5 class="mb-0">Nome Utente 2</h5>
+                <p class="text-muted mb-0">Cliente soddisfatto</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
+              velit sed turpis congue consequat. Nullam euismod elementum diam
+              ut tristique. Maecenas ac odio velit. Praesent venenatis augue a
+              erat ultricies hendrerit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5 class="mb-3">Informazioni Agenzia</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
+              velit sed turpis congue consequat. Nullam euismod elementum diam
+              ut tristique. Maecenas ac odio velit. Praesent venenatis augue a
+              erat ultricies hendrerit.
+            </p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#contattaciModal"
+            >
+              Contattaci
+            </button>
+
+            <!-- Modale per il contatto -->
+            <div
+              class="modal fade"
+              id="contattaciModal"
+              tabindex="-1"
+              aria-labelledby="contattaciModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="contattaciModalLabel">
+                      Contattaci
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" />
+                      </div>
+                      <div class="mb-3">
+                        <label for="message" class="form-label"
+                          >Messaggio</label
+                        >
+                        <textarea
+                          class="form-control"
+                          id="message"
+                          rows="5"
+                        ></textarea>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Chiudi
+                    </button>
+                    <button type="button" class="btn btn-primary">Invia</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
